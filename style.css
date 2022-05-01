@@ -1,0 +1,87 @@
+body {
+    background-image:url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 6vw;
+    font-family:arial, "Arial Black", sans-serif;
+    margin:5%;
+}
+
+#content {
+    margin-top: 50%;
+}
+/* ---------- StartView ---------- */
+.btnLogIn {
+    display: inline-block;
+    font-size: 10vw;
+    width:25vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffba30;
+    padding: 1%;
+}
+
+#logInBox {
+text-align: center;
+position: relative;
+}
+
+/* ---------- MainView ---------- */
+#mainView {
+    position: relative;
+    margin:2%;
+}
+
+h3 {
+    text-align: right;
+    margin-top: 5%;
+}
+
+/* ---------- Header ---------- */
+
+#header {
+    display: block;
+}
+
+#btnToStart {
+    position: absolute;
+    left: 5%;
+    bottom: 3%;
+}
+
+#date {
+    position: absolute;
+    font-size: 4vw;
+    left: 5%;
+    top: 10%;
+}
+
+#dayCategory {
+    position: absolute;
+    font-size: 4vw;
+    top: 10%;
+    right: 5%;
+}
+
+#nameValue {
+    position: absolute;
+    right: 5%;
+    top:2%;
+}
+
+#headerHr {
+    position: absolute;
+    top:9%;
+    left:0;
+    width: 100%;
+}
+
+
+/* ---------- Category ---------- */
+
+#btnStart {
+    position: absolute;
+    right: 5%;
+    bottom: 7%;
+}
