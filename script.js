@@ -1,4 +1,4 @@
-let dayCategory
+let dayCategory;
 
 function logIn(name) {
     sessionStorage.setItem("Gym-Page name", name);
